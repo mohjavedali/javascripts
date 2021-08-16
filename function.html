@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>This is new value.</title>
+	</head>
+	<body>
+		<p id="demo"></p>
+		<!-- <h1 id="demo" style="text-align:center; margin-top:200px;color:green; font-size:100px">It is title tag.</h1> -->
+		<script>
+			
+			<!-- function outerFunction(){ -->
+				<!-- var outer = 'I m the outer function!'; -->
+				<!-- function innerFunction(){ -->
+					<!-- const inner = 'Im the inner function!'; -->
+					<!-- console.log(outer) -->
+				<!-- } -->
+				<!-- innerFunction(); -->
+			<!-- } -->
+			<!-- outerFunction(); -->
+
+			function outerFunction () {
+			  const outer = 'I see the outer variable!'
+
+			  function innerFunction() {
+				console.log(outer)
+			  }
+			   return innerFunction
+
+			}
+
+			outerFunction()() // I see the outer variable!
+		<!-- <!-- let array = [1,7,98,5,4,2]; --> -->
+
+		// ES5 way
+		<!-- var moreThan20 = array.filter(function (num) { -->
+		  <!-- return num > 20 -->
+		<!-- }) -->
+
+		// ES6 way
+		//let moreThan20 = array.filter(num => num > 20)
+		//document.getElementById("demo").innerHTML = moreThan20;
+		<!-- document.write(moreThan20); -->
+		<!-- debugger; -->
+		<!-- let numbers = [2,4,5,6,9,10]; -->
+		<!-- function isOddNumber(number){ -->
+			<!-- return number % 2; -->
+			
+		<!-- } -->
+		<!-- const oddNumbers = numbers.filter(isOddNumber); -->
+		<!-- console.log(oddNumbers); -->
+ 
+ 
+ 
+ 
+ 
+		</script>
+		<!--   -->
+
+		<!-- <script src="./function.js"></script> -->
+		
+	</body>
+</html>
